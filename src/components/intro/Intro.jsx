@@ -7,6 +7,8 @@ import {BsGithub} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
 import {GrMedium} from 'react-icons/gr'
 
+
+
 const Intro = () => {
   return (
     <div className='i'>
@@ -24,23 +26,23 @@ const Intro = () => {
                         </div>
                     </div>
                         <p className='i-desc'>
-                        I design and develop software ranging from technical back-end
-                        applications, to beautiful front-end websites for clients.
-                        I design and develop software ranging from technical back-end
-                        applications, to beautiful front-end websites for clients.
+                        I am an Industrial Engineer by
+                        training with a passion for
+                        software development. I'm a great commuicator which allows me
+                        to make a difference in group
+                        environments. I am hardworking
+                        and strive to make a positve
+                        change wherever I find myself.
                         </p>
                     
                 </div>
                 <div className='i-cv'>
-                    {/* <button className="button"> */}
                         <a className="i-button" href={CV} download>
-                        Download CV
-                        </a>
-                    {/* </button> */}
+                        Download CV</a>
                 </div>
                 <div className='i-links'>
                        <a href="https://github.com/pierrelieben"> <BsGithub size={40} className="link_icon"/></a>
-                       <a href="https://github.com/pierrelieben"> <BsLinkedin size={40} className="link_icon"/></a>
+                       <a href="https://www.linkedin.com/in/pierre-liebenberg-0638a11b5/"> <BsLinkedin size={40} className="link_icon"/></a>
                        <a href="https://medium.com/codex/my-first-two-months-as-a-developer-in-a-start-up-environment-reflections-of-an-industrial-ea61aa45fe58"> <GrMedium size={40} className="link_icon"/></a>
                     </div>
                 <img src={Scroll} alt="" className='i-scroll' />
@@ -56,3 +58,4 @@ const Intro = () => {
 }
 
 export default Intro
+
