@@ -20,9 +20,9 @@ const Intro = () => {
                         <div className='i-title-wrapper'>
                             <div className='i-title-item'>Industrial Engineer</div>
                             <div className='i-title-item'>Software Developer</div>
-                            <div className='i-title-item'>Critical thinker</div>
                             <div className='i-title-item'>Writer</div>
-                            <div className='i-title-item'>Human on earth ?</div>
+                            <div className='i-title-item'>Critical thinker</div>
+                            <div className='i-title-item'>Eager learner</div>
                             
                         </div>
                     </div>

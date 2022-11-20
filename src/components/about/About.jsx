@@ -3,8 +3,9 @@ import './about.css'
 import ME from '../../img/k.jpeg'
 import {FaRunning} from 'react-icons/fa'
 import {MdOutlineEmojiPeople} from 'react-icons/md'
-import {AiFillCode} from 'react-icons/ai'
+import {FaLaptopCode} from 'react-icons/fa'
 import {FaGlobeAfrica} from 'react-icons/fa'
+import Scroll from "../../img/54414-200.svg"
 
 import ImageSwapper from './about.js'
 
@@ -24,7 +25,7 @@ function About() {
             <div className="a-left">
             <div className="a-card bg"></div>
                 {ImageSwapper()}
-    
+                
                 </div>
             <div className="a-right">
                 
@@ -42,11 +43,11 @@ function About() {
                         </div>
                         <div className="me-card1">
                             <FaGlobeAfrica size={40}  className="card-icon"/>
-                            <p className='a-desc'> I am originally from Namibia, which cultivated an immense love for nature. I spend a lot of my free time in the mountains and enjoy an active lifestyle. When it's raining, however, you can find me snuggled up with strong cup of coffee and a 1950s Hitchcock thriller. 
+                            <p className='a-desc'> I am originally from Namibia, which cultivated my love for nature. I spend a lot of my free time in the mountains and enjoy an active lifestyle. When it's raining, however, you can find me snuggled up with a strong cup of coffee and a 1950s Hitchcock thriller. 
                              </p>
                         </div>
                         <div className="me-card1">
-                            <AiFillCode size={40} className="card-icon"/>
+                            <FaLaptopCode size={40} className="card-icon"/>
                             <p className='a-desc'>I am currently employed as a Junior Tooling Specialist. I write and
                                                 deploy tooling applications and scripts to automise and improve
                                                 our wearable data processing workflows. This mainly includes
@@ -55,7 +56,7 @@ function About() {
                                                 (Jira), Docker, Terraform and AWS (DynamoDB, ECR, S3). 
                              </p>
                         </div>
-                        <div className="me-card1">
+                        <div className="me-card-icons">
                             
                             <FaPython size={30} className="icon-exp" />
                             <FaAws size={30} className="icon-exp" />
@@ -68,10 +69,13 @@ function About() {
                             
             
                         </div>
+                        
                     </div>
+                    
                 </div>
+                
             </div>
-           
+            
         </div>
 
 
