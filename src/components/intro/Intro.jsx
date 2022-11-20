@@ -46,12 +46,12 @@ const Intro = () => {
                        <a href="https://www.linkedin.com/in/pierre-liebenberg-0638a11b5/"> <BsLinkedin size={40} className="link_icon"/></a>
                        <a href="https://medium.com/codex/my-first-two-months-as-a-developer-in-a-start-up-environment-reflections-of-an-industrial-ea61aa45fe58"> <GrMedium size={40} className="link_icon"/></a>
                     </div>
-                <img src={Scroll} alt="" className='i-scroll' />
+                <img src={Scroll} alt="Scroll" className='i-scroll' />
         </div>
         
         <div className='i-right'>
             <div className='i-bg'> </div>
-            <img src={Me} alt="" className='i-img' />
+            <img src={Me} alt="Me" className='i-img' />
         </div> 
        
     </div>

@@ -1,11 +1,10 @@
 import React from 'react'
 import './about.css'
-import ME from '../../img/k.jpeg'
-import {FaRunning} from 'react-icons/fa'
+
 import {MdOutlineEmojiPeople} from 'react-icons/md'
 import {FaLaptopCode} from 'react-icons/fa'
 import {FaGlobeAfrica} from 'react-icons/fa'
-import Scroll from "../../img/54414-200.svg"
+
 
 import ImageSwapper from './about.js'
 
