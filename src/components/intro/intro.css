@@ -43,14 +43,14 @@
 
 .i-title-wrapper{
     height: 100%;
-    animation: scroll 10s ease-in-out infinite alternate;
+    animation: move 10s ease-in-out infinite alternate;
 }
 
-@keyframes scroll {
-    25%{transform: translateY(100%)}
-    50%{transform: translateY(100%)}
-    75%{transform: translateY(100%)}
-    100%{transform: translateY(100%)}
+@keyframes move {
+    25%{transform: translateY(-50px)}
+    50%{transform: translateY(-100px)}
+    75%{transform: translateY(-150px)}
+    100%{transform: translateY(-200px)}
 }
 
 .i-title-item{

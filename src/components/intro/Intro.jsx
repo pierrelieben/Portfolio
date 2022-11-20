@@ -22,7 +22,8 @@ const Intro = () => {
                             <div className='i-title-item'>Software Developer</div>
                             <div className='i-title-item'>Critical thinker</div>
                             <div className='i-title-item'>Writer</div>
-                            <div className='i-title-item'>Human being</div>
+                            <div className='i-title-item'>Human on earth ?</div>
+                            
                         </div>
                     </div>
                         <p className='i-desc'>
