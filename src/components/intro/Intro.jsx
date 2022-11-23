@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import Me from "../../img/Sovtech.png"
+import Me from "../../img/Sovtech.jpeg"
 import Scroll from "../../img/54414-200.svg"
 import CV from "../../img/cv.pdf"
 import {BsGithub} from 'react-icons/bs'
