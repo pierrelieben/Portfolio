@@ -14,8 +14,10 @@ const Intro = () => {
     <div className='i'>
         <div className='i-left'>
             <div className='i-left-wrapper'>
+                <div className="into-block">
                 <h2 className='i-intro'>Hello, my name is</h2>
                 <h1 className='i-name'>Pierre Liebenberg</h1>
+                </div>
                     <div className='i-title'>
                         <div className='i-title-wrapper'>
                             <div className='i-title-item'>Industrial Engineer</div>
@@ -35,18 +37,21 @@ const Intro = () => {
                         and strive to make a positve
                         change wherever I find myself.
                         </p>
-                    
-                </div>
-                <div className='i-cv'>
+                    <div className="bot-buts">
+                        <div className='i-cv'>
                         <a className="i-button" href={CV} download>
                         Download CV</a>
-                </div>
-                <div className='i-links'>
+                        </div>
+                        <div className='i-links'>
                        <a href="https://github.com/pierrelieben"> <BsGithub size={40} className="link_icon"/></a>
                        <a href="https://www.linkedin.com/in/pierre-liebenberg-0638a11b5/"> <BsLinkedin size={40} className="link_icon"/></a>
                        <a href="https://medium.com/codex/my-first-two-months-as-a-developer-in-a-start-up-environment-reflections-of-an-industrial-ea61aa45fe58"> <GrMedium size={40} className="link_icon"/></a>
+                        </div>
+                        <img src={Scroll} alt="Scroll" className='i-scroll' />
                     </div>
-                <img src={Scroll} alt="Scroll" className='i-scroll' />
+                </div>
+                
+                
         </div>
         
         <div className='i-right'>

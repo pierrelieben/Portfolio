@@ -9,6 +9,7 @@ function Why() {
   return (
     <div className="why-wrapper">
     <div className="why">
+        <div className="why-block">
         <div className="why-title">
             <h1>Why SovTech?</h1>
         </div>
@@ -46,6 +47,7 @@ function Why() {
                     <a href="https://www.linkedin.com/in/pierre-liebenberg-0638a11b5/"> <BsLinkedin size={40} className="link_icon"/></a>
                     <a href="https://medium.com/codex/my-first-two-months-as-a-developer-in-a-start-up-environment-reflections-of-an-industrial-ea61aa45fe58"> <GrMedium size={40} className="link_icon"/></a>
             </div> 
+    </div>
     </div>
     </div>
     

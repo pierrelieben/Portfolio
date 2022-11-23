@@ -2,9 +2,9 @@
     display: flex;
     height: 100vh;
     width: 100%;
-    background-color:white;
+    background-color:aqua;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .why-wrapper{
@@ -12,29 +12,41 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content:center ; */
+    justify-content:space-between ;
+    background-color: purple;
+
+}
+.why-block{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:80%;
+    align-items: center;
+    background-color: orange;
+    justify-content: space-between;
 }
 
 .why-title{
     /* background-color: pink; */
     font-size: 25px;
-    height: 60px;
-    width: 100%;
+    height: auto;
+    width: auto;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    background-color: pink;
 }
 
 
 .why-card{
-    width: 950px;
-    height: 30vh;
+    width: 80%;
+    height: auto;
     position: relative;
-    top: -50px !important;
-    margin:auto;
+    /* top: -50px !important; */
+    /* margin:auto; */
+    /* padding-top: 100px; */
     background-color: #333;
     display: flex;
-    height: auto;
-    overflow: hidden;
+    overflow: scroll;
     border-radius: 20px;
     flex-direction: column;
 }
@@ -61,13 +73,13 @@
 } */
 
 .two-buttons{
-    /* background-color: red; */
+    background-color: red;
     height:auto;
     width:360px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content:space-evenly;
-    position: relative;
+    /* position: relative; */
     bottom: 90px;
 
     
@@ -85,15 +97,22 @@
 .why-links{
     width: 250px;
     height: 50px;
-    position: relative;
+    /* position: relative; */
     /* padding-top: 35%; */
     /* top: 78%; */
     justify-content: space-evenly;
     align-items: center;
     /* background-color: red; */
     display: flex;
-    /* background-color: grey; */
-    bottom: 60px;
+    background-color: grey;
+    padding-bottom: 60px;
 }
 
 
+@media screen and (max-width:480px) {
+    .why-wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
