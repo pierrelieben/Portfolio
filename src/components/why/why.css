@@ -14,6 +14,7 @@
     align-items: center;
     justify-content:space-between ;
     background-color: purple;
+    position: relative;
 
 }
 .why-block{
@@ -40,7 +41,7 @@
 .why-card{
     width: 80%;
     height: auto;
-    position: relative;
+    /* position: relative; */
     /* top: -50px !important; */
     /* margin:auto; */
     /* padding-top: 100px; */
@@ -110,9 +111,29 @@
 
 
 @media screen and (max-width:480px) {
-    .why-wrapper{
+    .why-block{
         flex-direction: column;
-        text-align: center;
+        /* size: auto; */
+        /* align-content: center; */
+        /* justify-content: center; */
+        /* position: relative; */
+        display: flex;
+        /* width: auto; */
+        height: 800px;
+        /* text-align: center; */
     }
-
+    .why-title{
+        font-size: 20px;
+    }
+    .why-card{
+        height: 400px;
+        overflow: scroll;
+        width:100%;
+    }
+    .why-content{
+        font-size: 16px;
+    }
+    .why-links{
+        padding-bottom: 120px;
+    }
 }
