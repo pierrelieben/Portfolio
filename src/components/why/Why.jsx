@@ -16,14 +16,14 @@ function Why() {
     <div className='why-card'>
         <div className="why-content">
             <p>
-                For the last 8 months I have been working as a python toolings Specialist
+                For the last 8 months I have been working as a python tooling specialist
                 at a healthtech company. I worked in a team where my sole purpose was to make their lives
-                easier, utilising my problem solving skills and coding skills. This involved identifying
-                inefficiencies in our workflows and I wrote scripts and a small full stack application to create more efficient processes.
+                easier, utilising on my problem solving skills and coding skills. I identified
+                inefficiencies in our workflows and wrote scripts and a small full stack application to create more efficient processes.
                 <br />
                 <br />
                 This opened my eyes to the world of full stack developemt. I enjoyed the process of listening to my colleagues needs, identifying and quantifying their problems, 
-                and finally buiding and deploying software to solve it. I enjoy identifying customer's needs, leveraging my creativity and technical skills to build a solution. 
+                and finally buiding and deploying software to solve it. I enjoy identifying customer's needs, and then leveraging my creativity and technical skills to build an innovative solution. 
                 My passion lies in utilising technology to create smart and efficient solutions, and to make it look beautiful while I'm at it. This realisation led me to build a website on squarespace for my 
                 very first client as a freelancer, <a href="https://www.tellusconservation.com" className='Tellus'>Tellus</a>.
                 <br />

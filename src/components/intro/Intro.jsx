@@ -14,6 +14,10 @@ const Intro = () => {
     <div className='i'>
         <div className='i-left'>
             <div className='i-left-wrapper'>
+                <div className="a-mob-wrapper">
+                <div className="mob-image">
+                    <img src={Me} alt="Me" className='i-mob-img' />
+                    </div>
                 <div className="into-block">
                 <h2 className='i-intro'>Hello, my name is</h2>
                 <h1 className='i-name'>Pierre Liebenberg</h1>
@@ -28,9 +32,10 @@ const Intro = () => {
                             
                         </div>
                     </div>
+                    
+                </div>
                         <p className='i-desc'>
-                        I am an Industrial Engineer by
-                        training with a passion for
+                        I am an Industrial Engineer with a passion for
                         software development. I'm a great commuicator which allows me
                         to make a difference in group
                         environments. I am hardworking
