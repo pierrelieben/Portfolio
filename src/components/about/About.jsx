@@ -6,7 +6,7 @@ import {FaLaptopCode} from 'react-icons/fa'
 import {FaGlobeAfrica} from 'react-icons/fa'
 
 
-import ImageSwapper from './about.js'
+import ImageSwapper from './about_img.js'
 
 import {FaAws} from 'react-icons/fa'
 import {FaPython} from 'react-icons/fa'

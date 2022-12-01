@@ -24,7 +24,7 @@ export default function ImageSwapper() {
     return (
         <div>
                 <div className="a-card">
-                    <img src={currentImage} className="a-img"/>
+                    <img src={currentImage} className="a-img" alt="About me"/>
                 </div>
                 </div>
     )
